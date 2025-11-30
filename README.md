@@ -42,16 +42,16 @@ Cycle Wellness Agent uses a **Sequential Multi-Agent System**, with 3 agents as 
 3. **Wellness Coach Agent** – Provides phase-based wellness recommendations, fetches evidence-based tips using Google Search, and stores insights in memory.
 
 **Custom Tools**:  
-- **Cycle Calculator** calculates phase, predicts next period
-- **Pattern Analyzer** analyzes mood trends from stored data  
+- **Cycle Calculator**: calculates phase, predicts next period
+- **Pattern Analyzer**: analyzes mood trends from stored data  
 - **Recommendation Generator**: matches phase + mood to wellness tips 
 
 **Built-In Tools**
-**Google Search** fetch evidence-based mental health strategies
+**Google Search**: fetch evidence-based mental health strategies
 
-**Memory Bank** Uses an in-memory memory system to manage user sessions, cycle data, mood logs, and insights. This enables the agent to provide personalized, context-aware recommendations and track patterns over time.
+**Memory Bank**: Uses an in-memory memory system to manage user sessions, cycle data, mood logs, and insights. This enables the agent to provide personalized, context-aware recommendations and track patterns over time.
 
-**Observability and Logging** Comprehensive logging system to track agent behavior, tool usage, memory operations, session events, and key interactions. This ensures full observability of the system, making debugging, evaluation, and monitoring easier.
+**Observability and Logging**: Comprehensive logging system to track agent behavior, tool usage, memory operations, session events, and key interactions. This ensures full observability of the system, making debugging, evaluation, and monitoring easier.
 
 **Agent Flow Diagram:**  
 
@@ -61,7 +61,7 @@ User Input → Agent 1 (Intake) → Agent 2 (Analysis) → Agent 3 (Wellness Coa
                                                     (stores everything)
 
 ## Core Features
-1. **Cycle Tracking & Phase Awareness** User inputs cycle start date, length, symptoms; Calculates menstrual, follicular, ovulation, and luteal phases; Stores the info in Memory Bank.
+1. **Cycle Tracking & Phase Awareness**- User inputs cycle start date, length, symptoms; Calculates menstrual, follicular, ovulation, and luteal phases; Stores the info in Memory Bank.
 2. **Mood & Symptom Logging** – Daily check-ins to capture mood, energy, and physical symptoms; track mood, energy, anxiety levels, and physical symptoms; link symptoms to cycle phase.
 3. **Pattern Recognition & Insights** – Identifies recurring patterns, triggers, and trends  
 4. **Personalized Wellness Recommendations** – Suggests coping strategies based on cycle phase and mood trends  
@@ -92,14 +92,14 @@ User Input → Agent 1 (Intake) → Agent 2 (Analysis) → Agent 3 (Wellness Coa
 
 ## Setup Instructions
 ### Clone the repository
-git clone https://github.com/Nindium1/Cycle_Wellness_Agent.git
-cd Cycle_Wellness_Agent
+- git clone https://github.com/Nindium1/Cycle_Wellness_Agent.git
+- cd Cycle_Wellness_Agen
 
 ### Create Virtual Environment
- [Use either of the following depending on your system:]
-python -m venv venv
+ Use either of the following depending on your system:
+- python -m venv venv
 or
-py -m venv venv
+- py -m venv venv
 
 ### Activate the virtual environment
 - venv\Scripts\activate [Windows]
