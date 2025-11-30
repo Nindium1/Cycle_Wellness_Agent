@@ -68,46 +68,56 @@ User Input → Agent 1 (Intake) → Agent 2 (Analysis) → Agent 3 (Wellness Coa
 5. **Crisis Pattern Detection** – Detects concerning emotional patterns and provides supportive resources immediately
 
 ## Folder Structure
-agents/ # [Intake Agent, Analysis Agent, Wellness Agent]
-tools/ # [Cycle Calculator, pattern analyzer, recommendation generator]
-utils/ # [Logger, Memory Manager]
-.gitignore
-LICENSE
-README.md # Project documentation
-config.py # Configuration settings
-main.py # Point to test the agent system
-requirements.txt # Python dependencies
-setup.py # Install ADK components
-test_intake_agent.py 
+
+- `agents/` 
+  - Intake Agent
+  - Analysis Agent
+  - Wellness Agent
+- `tools/` 
+  - Cycle Calculator
+  - Pattern Analyzer
+  - Recommendation Generator
+- `utils/` 
+  - Logger
+  - Memory Manager
+- `.gitignore`
+- `LICENSE`
+- `README.md` – Project documentation
+- `config.py` – Configuration settings
+- `main.py` – Entry point to test the agent system
+- `requirements.txt` – Python dependencies
+- `setup.py` – Install ADK components
+- `test_intake_agent.py`
+
 
 ## Setup Instructions
-# Clone the repository
+### Clone the repository
 git clone https://github.com/Nindium1/Cycle_Wellness_Agent.git
 cd Cycle_Wellness_Agent
 
-# Create Virtual Environment
+### Create Virtual Environment
  [Use either of the following depending on your system:]
 python -m venv venv
 or
 py -m venv venv
 
-# Activate the virtual environment
+### Activate the virtual environment
 venv\Scripts\activate [Windows]
 source venv/bin/activate [MacOS/ Linux]
 
-# Install dependencies
+### Install dependencies
 pip install -r requirements.txt
 
-# Run the agent system
+### Run the agent system
 py main.py
 
 
-# Technologies Used
+## Technologies Used
 Python 3.10+
 Gemini / LLM Agents
 Google Search API
 Custom multi-agent architecture
 Memory Bank for state & session management
 
-# License
+## License
 MIT License.
