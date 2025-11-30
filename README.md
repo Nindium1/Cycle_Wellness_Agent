@@ -102,8 +102,8 @@ or
 py -m venv venv
 
 ### Activate the virtual environment
-venv\Scripts\activate [Windows]
-source venv/bin/activate [MacOS/ Linux]
+- venv\Scripts\activate [Windows]
+- source venv/bin/activate [MacOS/ Linux]
 
 ### Install dependencies
 pip install -r requirements.txt
@@ -113,11 +113,12 @@ py main.py
 
 
 ## Technologies Used
-Python 3.10+
-Gemini / LLM Agents
-Google Search API
-Custom multi-agent architecture
-Memory Bank for state & session management
+- Python 3.10+
+- Gemini / LLM Agents
+- Google Search API
+- Custom multi-agent architecture
+- Memory Bank for state & session management
 
 ## License
 MIT License.
+
