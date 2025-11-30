@@ -1,6 +1,4 @@
 # Memory Management: Cycle Wellness Agent Memory System
-# Based on Kaggle ADK patterns, optimized for cycle tracking
-
 import os
 import sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -32,7 +30,6 @@ memory_service = InMemoryMemoryService()
 print("✅ InMemoryMemoryService created")
 
 # In-memory storage for structured cycle data
-# (Since InMemoryMemoryService stores conversations, we add this for structured data)
 cycle_data_store = {
     "cycle_info": {},      # Current cycle information
     "mood_logs": [],       # List of all mood logs
