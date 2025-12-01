@@ -108,13 +108,20 @@ or
 ### Install dependencies
 pip install -r requirements.txt
 
+### Set up environment variables
+Create a `.env` file in the project root:
+```
+GOOGLE_API_KEY=your_api_key_here
+```
+Get your API key from [Google AI Studio](https://aistudio.google.com/app/apikey)
+
 ### Run the agent system
 py main.py
 
 
 ## Technologies Used
-- Python 3.10+
-- Gemini / LLM Agents
+- Python 3.11
+- Gemini 2.5 Flash Lite/ LLM Agents; 
 - Google Search API
 - Custom multi-agent architecture
 - Memory Bank for state & session management
