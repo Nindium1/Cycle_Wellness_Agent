@@ -60,6 +60,7 @@ User Input → Agent 1 (Intake) → Agent 2 (Analysis) → Agent 3 (Wellness Coa
                                                         Memory Bank
                                                     (stores everything)
 
+
 ## Core Features
 1. **Cycle Tracking & Phase Awareness**- User inputs cycle start date, length, symptoms; Calculates menstrual, follicular, ovulation, and luteal phases; Stores the info in Memory Bank.
 2. **Mood & Symptom Logging** – Daily check-ins to capture mood, energy, and physical symptoms; track mood, energy, anxiety levels, and physical symptoms; link symptoms to cycle phase.
